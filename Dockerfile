@@ -16,6 +16,6 @@ RUN npm install
 COPY . .
 
 # replace this with your application's default port
-EXPOSE 8080
+EXPOSE 3000
 
 CMD [ "node", "index.js" ]

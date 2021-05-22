@@ -1,5 +1,5 @@
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const API_URL = "http://api.icndb.com/jokes/random";
 const express = require("express");
 const app = express();
